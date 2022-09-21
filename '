@@ -1,0 +1,8 @@
+versiomn: '3'
+services:
+  httpd-servers:
+    image: 'httpd'
+     ports:
+     -"80:80"
+     volumes:
+     -"/mnt/wars:/usr/local/apache2/htdocs"

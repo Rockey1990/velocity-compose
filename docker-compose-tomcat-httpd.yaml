@@ -1,0 +1,7 @@
+version: '3'
+services:
+  service-1:
+    image: 'tomcat:9'
+
+  service-2:
+    image: 'httpd'  
